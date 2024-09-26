@@ -19,6 +19,8 @@ def index()->rx.Component:
         header(),
         title("Redes sociales"),
         links(),
+        rx.spacer(height="500px"),
+        
         footer(),
         max_width=styles.MAX_WIDTH, # le da al componente(vstack en este caso) un ancho máximo
         width = "100%", # hace que el contenido interno del componente ocupe el 100% del espacio en el ancho

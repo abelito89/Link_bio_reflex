@@ -37,7 +37,8 @@ def index()->rx.Component:
     return box
 
 app = rx.App(
-    styles = styles.BASE_STYLE
+    styles = styles.BASE_STYLE,
+    fonts={"Sixtyfour Convergence": "https://fonts.google.com/specimen/Sixtyfour+Convergence?lang=es_Latn"}  # Cargando la fuente
 )
 # Debugging: Print Base Style
 print("Base Style:")

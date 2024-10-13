@@ -27,9 +27,11 @@ Link_bio/
 │   │   ├── colors.py        # Archivo que contiene los colores utilizados
 │   │   ├── styles.py        # Archivo que define los estilos base y tamaños
 │   │
-│   └── views/
-│       ├── header.py        # Vista del encabezado con avatar y descripción
-│       ├── links.py         # Vista con los enlaces a las redes sociales
+│   |── views/
+│   |    ├── header.py        # Vista del encabezado con avatar y descripción
+│   |    ├── links.py         # Vista con los enlaces a las redes sociales
+│   |
+|   |__ Link_bio.py           # Archivo principal del proyecto 
 │
 ├── Link_bio_reflex/          # Archivos de Reflex generados automáticamente
 ├── venv/                     # Entorno virtual de Python

@@ -2,11 +2,19 @@ import reflex as rx
 from Link_bio.components.title import title
 from Link_bio.components.link_icon import link_icon
 from Link_bio.styles.styles import Size as Size
+from Link_bio.styles.colors import Color
 
 def header() -> rx.Component:
     return rx.vstack(
         rx.hstack(
-            rx.avatar(name="Abel Gomez", size="2xl"),
+            rx.avatar(
+                name="Abel Gomez", 
+                size="2xl", 
+                src="avatar.jpg",
+                padding = "0px",
+                border="4px solid #6064f9",
+                border_radius="50%",  # Convertir el avatar en un círculo
+                ),
             rx.vstack(
                 title("ABEL GÓMEZ MÉNDEZ"),
                 rx.text("abelito89",

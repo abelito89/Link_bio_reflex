@@ -1,12 +1,12 @@
 import reflex as rx
 import Link_bio.styles.styles as styles
 
-def link_button(title: str, body: str, url: str) -> rx.Component:
+def link_button(title: str, body: str, image:str, url: str) -> rx.Component:
     return rx.link(
         rx.button(
             rx.hstack(
-                rx.icon(
-                    tag="arrow_right",
+                rx.image(
+                    src=image,
                     width=styles.Size.BIG.value,
                     height=styles.Size.BIG.value
                 ),

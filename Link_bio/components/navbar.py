@@ -5,7 +5,7 @@ from Link_bio.styles.colors import Color
 def navbar() -> rx.Component:
     return rx.hstack(
         rx.text(
-            "Abelito",
+            "abelito",
             style={
                 "font_family": "Tahoma",
                 "font-weight": "bold",
